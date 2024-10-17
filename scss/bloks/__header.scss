@@ -1,0 +1,30 @@
+.header {
+  margin-top: 38px;
+  margin-bottom: 60px;
+  &__main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+  &__input {
+    padding: 7px 45px 7px 20px;
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  &__img {
+    position: absolute;
+    top: 7px;
+    right: 8px;
+  }
+  &__hr {
+    margin-top: 16px;
+    border: 0.5px solid #00000030;
+  }
+}

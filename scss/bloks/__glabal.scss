@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.text-simall {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.text-big {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  line-height: 24px;
+  font-size: 24px;
+}
+
+.conteaner {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+li {
+  color: #fafafa;
+}

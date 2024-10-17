@@ -1,0 +1,51 @@
+.body {
+  margin-bottom: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__h1 {
+    font-size: 36px;
+    line-height: 30px;
+    padding-bottom: 24px;
+  }
+  &__input-user {
+    width: 370px;
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid#00000030;
+  }
+  &__input-pas {
+    width: 370px;
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid#00000030;
+  }
+  &__div-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__btn {
+    background-color: #db4444;
+    padding: 16px 48px;
+    color: #fafafa;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+      background-color: #db4444;
+    }
+  }
+  &__btn-p {
+    color: #db4444;
+  }
+  &__img {
+    width: 666px;
+    height: 733px;
+  }
+}

@@ -1,0 +1,35 @@
+.futer {
+  background-color: #000000;
+  padding: 80px 135px;
+  &__div-main {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  &__ul-1 {
+    border: none;
+    border-width: 217px;
+  }
+  &__main-text {
+    font-size: 24px;
+    line-height: 24px;
+    color: #fafafa;
+    padding-bottom: 24px;
+  }
+  &__li-text {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 24px;
+  }
+  &__text-main {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+  &__text-main-1 {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+    width: 175px;
+  }
+}
